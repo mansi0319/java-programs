@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Inputfromuser
+{
+public static void main(String args[])
+{
+int a;
+float b;
+String s;
+ Scanner sc = new Scanner(System.in);
+
+System.out.println("enter a string:");
+s = sc.nextLine();
+System.out.println("you entered a string"+s);
+
+System.out.println("enter an integer");
+a = sc.nextInt();
+System.out.println("you entered an integer"+a);
+
+System.out.println("enter a float value:");
+b = sc.nextFloat();
+System.out.println("you entered a float value"+b);
+}
+}
